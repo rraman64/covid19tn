@@ -58,7 +58,7 @@ body {margin:0;font-family:Arial}
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -136,7 +136,7 @@ body {margin:0;font-family:Arial}
     <div class="dropdown-content">
       <a href="#dtdailycases">Daily New Cases</a>
       <a href="#dtactive">Active cases</a>
-      <a href="#dtdrr">DR ratio</a>
+      <a href="#dtgr">Growth rates</a>
     </div>
   </div> 
   <div class="dropdown">
@@ -174,9 +174,25 @@ body {margin:0;font-family:Arial}
 	</div>
 
 	<div id="chnzones">
-		<h3>Chennai Zones: Active cases</h3>
-		<a href="https://plotly.com/~rraman64/174/?share_key=XHkt6VHgCggir8pkbAykkm" target="_blank" title="Chennai_Zones_Active_Cases" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/174.png?share_key=XHkt6VHgCggir8pkbAykkm" alt="Chennai_Zones_Active_Cases" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-		<script data-plotly="rraman64:174" sharekey-plotly="XHkt6VHgCggir8pkbAykkm" src="https://plotly.com/embed.js" async></script>
+		<div id="chnzonesdailycases">
+			<h3>Chennai Zones: Daily New Cases</h3>
+			<a href="https://plotly.com/~rraman64/158/?share_key=GkZEQivwiB0uRXiaAtp8QA" target="_blank" title="Chennai_Zones_Daily_New_Cases" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/158.png?share_key=GkZEQivwiB0uRXiaAtp8QA" alt="Chennai_Zones_Daily_New_Cases" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+			<script data-plotly="rraman64:158" sharekey-plotly="GkZEQivwiB0uRXiaAtp8QA" src="https://plotly.com/embed.js" async></script>
+		</div>
+		<hr color="red" size="2">
+
+		<div id="chnzonesactive">
+			<h3>Chennai Zones: Active cases</h3>
+			<a href="https://plotly.com/~rraman64/174/?share_key=XHkt6VHgCggir8pkbAykkm" target="_blank" title="Chennai_Zones_Active_Cases" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/174.png?share_key=XHkt6VHgCggir8pkbAykkm" alt="Chennai_Zones_Active_Cases" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+			<script data-plotly="rraman64:174" sharekey-plotly="XHkt6VHgCggir8pkbAykkm" src="https://plotly.com/embed.js" async></script>
+		</div>
+		<hr color="red" size="2">
+
+		<div id="chnzonesgr">
+			<h3>Chennai Zones: Growth Rates</h3>
+			<a href="https://plotly.com/~rraman64/180/?share_key=CqUJFVOhk8a8fQ9Y8ZNbXO" target="_blank" title="Chennai_Zones_CD_rate" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/180.png?share_key=CqUJFVOhk8a8fQ9Y8ZNbXO" alt="Chennai_Zones_CD_rate" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+			<script data-plotly="rraman64:180" sharekey-plotly="CqUJFVOhk8a8fQ9Y8ZNbXO" src="https://plotly.com/embed.js" async></script>
+		</div>
 	</div>
 </div>
 
