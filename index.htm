@@ -128,34 +128,21 @@ body {margin:0;font-family:Arial}
 <body>
 
 <div class="sidenav" id="mysidenav">
-	<div class="dropdown">
-		<button class="dropbtn"><a href="#state" class="active">TamilNadu</a>
-			<i class="fa fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-		      <a href="#tndailycases">TN Daily Cases</a>
-		      <a href="#tnactive">TN Active cases</a>
-		      <a href="#tngr">TN Growth rates</a>
-		      <a href="#tncdcgr">TN CdC growth</a>
-		      <a href="#tndrratio">TN DR ratio</a>
-		      <a href="#tnbedoccup">TN Occupied Beds</a>
-		      <a href="#tnvaccin">TN Vaccination</a>
-		</div>
-	</div> 
-	<div class="dropdown">
-	    <button class="dropbtn"><a href="#districts">TN Districts</a>
-	      <i class="fa fa-caret-down"></i>
-	    </button>
-	    <div class="dropdown-content">
-		      <a href="#dtdailycases">District Daily Cases</a>
-		      <a href="#dtactive">District Active cases</a>
-		      <a href="#dtgr">District Growth rates</a>
-		      <a href="#dtcdcgr">District CdC growth</a>
-		      <a href="#dtdrratio">District DR ratio</a>
-		      <a href="#dtbedoccup">District Occupied Beds</a>
-		      <a href="#dtvaccin">District Vaccination</a>
-	    </div>
-  	</div> 
+<a href="#state" class="active">TamilNadu</a>
+<div class="dropdown">
+    <button class="dropbtn"><a href="#districts">TN Districts</a>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#dtdailycases">District Daily Cases</a>
+      <a href="#dtactive">District Active cases</a>
+      <a href="#dtgr">District Growth rates</a>
+      <a href="#dtcdcgr">District CdC growth</a>
+      <a href="#dtdrratio">District DR ratio</a>
+      <a href="#dtbedoccup">District Occupied Beds</a>
+      <a href="#dtvaccin">District Vaccination</a>
+    </div>
+  </div> 
   <div class="dropdown">
     <button class="dropbtn"><a href="#chnzones">Chennai Zones </a>
       <i class="fa fa-caret-down"></i>
@@ -174,48 +161,8 @@ body {margin:0;font-family:Arial}
 
 <div class="main">
 	<div id="state">
-		<div id="tndailycases">
-			<h3>Tamilnadu: Daily New Cases</br></h3>
-			<a href="https://plotly.com/~rraman64/95/?share_key=aCstPpFQqwseTMHYdeLoT7" title="Tamil_Nadu_Districts_Daily_New_Cases" style="display: block; text-align: left;"><img src="https://plotly.com/~rraman64/95.png?share_key=aCstPpFQqwseTMHYdeLoT7" alt="Tamil_Nadu_Districts_Daily_New_Cases" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-			<script data-plotly="rraman64:95" sharekey-plotly="aCstPpFQqwseTMHYdeLoT7" src="https://plotly.com/embed.js" async></script>
-		</div>
-		<hr color="red" size="2">
-		<div id="tnactive">
-			<h3>Tamilnadu: Active cases</h3>
-			<a href="https://plotly.com/~rraman64/97/?share_key=GTHUzgeIvXMBuz448ErmR1" target="_blank" title="Tamil_Nadu_Districts_Active_Cases" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/97.png?share_key=GTHUzgeIvXMBuz448ErmR1" alt="Tamil_Nadu_Districts_Active_Cases" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-			<script data-plotly="rraman64:97" sharekey-plotly="GTHUzgeIvXMBuz448ErmR1" src="https://plotly.com/embed.js" async></script>
-		</div>
-		<hr color="red" size="2">
-		<div id="tngr">
-			<h3>Tamilnadu: Growth Rates</h3>
-				<a href="https://plotly.com/~rraman64/101/?share_key=WFdohElIcAzSOPjG0TVti1" target="_blank" title="Tamil_Nadu_Districts_CD_rate" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/101.png?share_key=WFdohElIcAzSOPjG0TVti1" alt="Tamil_Nadu_Districts_CD_rate" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-				<script data-plotly="rraman64:101" sharekey-plotly="WFdohElIcAzSOPjG0TVti1" src="https://plotly.com/embed.js" async></script>
-		</div>
-		<hr color="red" size="2">
-		<div id="tncdcgr">
-			<h3>Tamilnadu: Confirmed and Daily confirmed Growth Rates</h3>
-				<a href="https://plotly.com/~rraman64/103/?share_key=1SkubNARWDwaIPjXT2P10w" target="_blank" title="Tamil_Nadu_Districts_CdC_rate" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/103.png?share_key=1SkubNARWDwaIPjXT2P10w" alt="Tamil_Nadu_Districts_CdC_rate" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-				<script data-plotly="rraman64:103" sharekey-plotly="1SkubNARWDwaIPjXT2P10w" src="https://plotly.com/embed.js" async></script>
-		</div>
-		<hr color="red" size="2">
-		<div id="tndrratio">
-			<h3>Tamilnadu: D/C and D/(D+R) ratios</h3>
-				<a href="https://plotly.com/~rraman64/218/?share_key=knRyL1PyyhwYKQ4n36pHVz" target="_blank" title="Tamil_Nadu_Districts_Daily_DR_ratio" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/218.png?share_key=knRyL1PyyhwYKQ4n36pHVz" alt="Tamil_Nadu_Districts_Daily_DR_ratio" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-				<script data-plotly="rraman64:218" sharekey-plotly="knRyL1PyyhwYKQ4n36pHVz" src="https://plotly.com/embed.js" async></script>
-		</div>
-		<hr color="red" size="2">
-		<div id="tnbedoccup">
-			<h3>Tamilnadu: Hospital Beds Occupied (O2 and ICU)</h3>
-				<a href="https://plotly.com/~rraman64/155/?share_key=AV3M79704JnvQyfagt4II6" target="_blank" title="Tamil_Nadu_Districts_Occupied_beds" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/155.png?share_key=AV3M79704JnvQyfagt4II6" alt="Tamil_Nadu_Districts_Occupied_beds" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-				<script data-plotly="rraman64:155" sharekey-plotly="AV3M79704JnvQyfagt4II6" src="https://plotly.com/embed.js" async></script>
-		</div>
-		<hr color="red" size="2">
-		<div id="tnvaccin">
-			<h3>Tamilnadu: Vaccination</h3>
-				<a href="https://plotly.com/~rraman64/116/?share_key=nmZH51cjtspgCNP4i10JUJ" target="_blank" title="Tamil_Nadu_Districts_vaccination" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/116.png?share_key=nmZH51cjtspgCNP4i10JUJ" alt="Tamil_Nadu_Districts_vaccination" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-				<script data-plotly="rraman64:116" sharekey-plotly="nmZH51cjtspgCNP4i10JUJ" src="https://plotly.com/embed.js" async></script>
-		</div>
-		<hr color="red" size="2">
+	    <a href="https://plotly.com/~rraman64/434/?share_key=tG7ZGBxXYnJEo2P5XiXhE1" target="_blank" title="Tamil_Nadu_covid19_updates" style="display: block; text-align: center;"><img src="https://plotly.com/~rraman64/434.png?share_key=tG7ZGBxXYnJEo2P5XiXhE1" alt="Tamil_Nadu_covid19_updates" style="max-width: 100%;width: 1200px;"  width="1200" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+	    <script data-plotly="rraman64:434" sharekey-plotly="tG7ZGBxXYnJEo2P5XiXhE1" src="https://plotly.com/embed.js" async></script>
 	</div>
 	<hr color="red" size="2">
 
