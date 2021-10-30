@@ -1,0 +1,94 @@
+Fetching TN data {'name': 'Tamil Nadu', 'state_code': 'TN', 'automatic': False, 'url_sources': ['https://twitter.com/ani', '@TN_Together_AgainstCorona Telegram channel'], 'type': 'pdf', 'url': '/tmp/tn.pdf', 'config': {'page': 7, 'start_key': 'Ariyalur', 'end_key': 'Total'}}
+Running for 7 pages
+*************************************************************************************
+
+********************Computing Delta for Tamil Nadu********************
+Ariyalur,Tamil Nadu,TN,-2,Hospitalized
+Chengalpattu,Tamil Nadu,TN,-86,Hospitalized
+Chennai,Tamil Nadu,TN,-115,Hospitalized
+Coimbatore,Tamil Nadu,TN,-116,Hospitalized
+Cuddalore,Tamil Nadu,TN,-18,Hospitalized
+Dharmapuri,Tamil Nadu,TN,-11,Hospitalized
+Dindigul,Tamil Nadu,TN,-7,Hospitalized
+Erode,Tamil Nadu,TN,-71,Hospitalized
+Kallakurichi,Tamil Nadu,TN,-14,Hospitalized
+Kancheepuram,Tamil Nadu,TN,-30,Hospitalized
+Kanyakumari,Tamil Nadu,TN,-17,Hospitalized
+Karur,Tamil Nadu,TN,-23,Hospitalized
+Krishnagiri,Tamil Nadu,TN,-18,Hospitalized
+Madurai,Tamil Nadu,TN,-14,Hospitalized
+Mayiladuthurai,Tamil Nadu,TN,-4,Hospitalized
+Nagapattinam,Tamil Nadu,TN,-12,Hospitalized
+Namakkal,Tamil Nadu,TN,-48,Hospitalized
+Nilgiris,Tamil Nadu,TN,-17,Hospitalized
+Perambalur,Tamil Nadu,TN,-6,Hospitalized
+Pudukkottai,Tamil Nadu,TN,-8,Hospitalized
+Ramanathapuram,Tamil Nadu,TN,-2,Hospitalized
+Ranipet,Tamil Nadu,TN,-10,Hospitalized
+Salem,Tamil Nadu,TN,-60,Hospitalized
+Sivaganga,Tamil Nadu,TN,-11,Hospitalized
+Tenkasi,Tamil Nadu,TN,-3,Hospitalized
+Thanjavur,Tamil Nadu,TN,-42,Hospitalized
+Theni,Tamil Nadu,TN,-5,Hospitalized
+Tirupathur,Tamil Nadu,TN,-8,Hospitalized
+Thiruvallur,Tamil Nadu,TN,-33,Hospitalized
+Tiruvannamalai,Tamil Nadu,TN,-15,Hospitalized
+Thiruvarur,Tamil Nadu,TN,-23,Hospitalized
+Thoothukkudi,Tamil Nadu,TN,-12,Hospitalized
+Tirunelveli,Tamil Nadu,TN,-12,Hospitalized
+Tiruppur,Tamil Nadu,TN,-71,Hospitalized
+Tiruchirappalli,Tamil Nadu,TN,-40,Hospitalized
+Vellore,Tamil Nadu,TN,-22,Hospitalized
+Viluppuram,Tamil Nadu,TN,-9,Hospitalized
+Virudhunagar,Tamil Nadu,TN,-6,Hospitalized
+Ariyalur,Tamil Nadu,TN,-4,Recovered
+Chengalpattu,Tamil Nadu,TN,-95,Recovered
+Chennai,Tamil Nadu,TN,-138,Recovered
+Coimbatore,Tamil Nadu,TN,-124,Recovered
+Cuddalore,Tamil Nadu,TN,-17,Recovered
+Dharmapuri,Tamil Nadu,TN,-23,Recovered
+Dindigul,Tamil Nadu,TN,-8,Recovered
+Erode,Tamil Nadu,TN,-97,Recovered
+Kallakurichi,Tamil Nadu,TN,-21,Recovered
+Kancheepuram,Tamil Nadu,TN,-39,Recovered
+Kanyakumari,Tamil Nadu,TN,-9,Recovered
+Karur,Tamil Nadu,TN,-11,Recovered
+Krishnagiri,Tamil Nadu,TN,-20,Recovered
+Madurai,Tamil Nadu,TN,-18,Recovered
+Mayiladuthurai,Tamil Nadu,TN,-15,Recovered
+Nagapattinam,Tamil Nadu,TN,-19,Recovered
+Namakkal,Tamil Nadu,TN,-53,Recovered
+Nilgiris,Tamil Nadu,TN,-29,Recovered
+Perambalur,Tamil Nadu,TN,-6,Recovered
+Pudukkottai,Tamil Nadu,TN,-5,Recovered
+Ramanathapuram,Tamil Nadu,TN,-8,Recovered
+Ranipet,Tamil Nadu,TN,-12,Recovered
+Salem,Tamil Nadu,TN,-64,Recovered
+Sivaganga,Tamil Nadu,TN,-7,Recovered
+Tenkasi,Tamil Nadu,TN,-3,Recovered
+Thanjavur,Tamil Nadu,TN,-61,Recovered
+Theni,Tamil Nadu,TN,-4,Recovered
+Tirupathur,Tamil Nadu,TN,-10,Recovered
+Thiruvallur,Tamil Nadu,TN,-57,Recovered
+Tiruvannamalai,Tamil Nadu,TN,-26,Recovered
+Thiruvarur,Tamil Nadu,TN,-24,Recovered
+Thoothukkudi,Tamil Nadu,TN,-6,Recovered
+Tirunelveli,Tamil Nadu,TN,-14,Recovered
+Tiruppur,Tamil Nadu,TN,-51,Recovered
+Tiruchirappalli,Tamil Nadu,TN,-45,Recovered
+Vellore,Tamil Nadu,TN,-13,Recovered
+Viluppuram,Tamil Nadu,TN,-9,Recovered
+Virudhunagar,Tamil Nadu,TN,-7,Recovered
+Chengalpattu,Tamil Nadu,TN,-1,Deceased
+Coimbatore,Tamil Nadu,TN,-3,Deceased
+Erode,Tamil Nadu,TN,-2,Deceased
+Kancheepuram,Tamil Nadu,TN,-1,Deceased
+Nagapattinam,Tamil Nadu,TN,-2,Deceased
+Ranipet,Tamil Nadu,TN,-1,Deceased
+Salem,Tamil Nadu,TN,-1,Deceased
+Thiruvarur,Tamil Nadu,TN,-1,Deceased
+Tiruchirappalli,Tamil Nadu,TN,-2,Deceased
+--> ERROR: Failed to find key mapping for district: Airport Surveillance (International), state: Tamil Nadu
+--> ERROR: Failed to find key mapping for district: Airport Surveillance (Domestic), state: Tamil Nadu
+--> ERROR: Failed to find key mapping for district: Railway Surveillance, state: Tamil Nadu
+Delta processing complete. Written to delta.txt
